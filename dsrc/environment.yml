@@ -1,0 +1,10 @@
+name: conda
+channels:
+ - bioconda
+ - conda-forge
+ - defaults
+dependencies:
+ - awscli>=1.15.16
+ - perl>=5.12.0
+ - perl-biox-seq
+ - dsrc>=2015.06.04
